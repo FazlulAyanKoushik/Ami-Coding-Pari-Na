@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Section: Design Block -->
+<section  class=" text-center text-lg-start " style="background-color: #eee;">
+    <style>
+      .rounded-t-5 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+  
+      @media (min-width: 992px) {
+        .rounded-tr-lg-0 {
+          border-top-right-radius: 0;
+        }
+  
+        .rounded-bl-lg-5 {
+          border-bottom-left-radius: 0.5rem;
+        }
+      }
+    </style>
+    <div class="card mb-3" style="width: 80%; border-radius: 1%; margin:auto">
+      <div class="row g-0 d-flex align-items-center">
+        <div class="col-lg-6 d-none d-lg-flex">
+          <img src="https://cdni.iconscout.com/illustration/premium/thumb/error-state-concept-3428234-2902703.png" alt="Trendy Pants and Shoes"
+            class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
+        </div>
+        <div class="col-lg-6">
+          <div class="card-body py-5 px-md-5">
+            <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Login</p>
+
+
+
+            <form class="form">
+                {% csrf_token %}
+              <!-- Email input -->
+              <div class="form-outline mb-4 form-group">
+                <label class=" form-label" for="form2Example1">Email address</label>
+                <input type="email" name="email" id="form2Example1" class="form-control" />
+                
+              </div>
+  
+              <!-- Password input -->
+              <div class="form-outline mb-4 form-group">
+                <label class="form-label" for="form2Example2">Password</label>
+                <input type="password" name="password" id="form2Example2" class="form-control" />
+                
+              </div>
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+            </form>
+
+            <div class="message-body">
+
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <script>
+    const formElement = document.querySelector('.form')
+    const tBody = document.querySelector(".message-body");
+
+    formElement.addEventListener('submit', event => {
+        event.preventDefault();
+        const formData = new FormData(formElement);
+        tBody.innerHTML = "";
+
+        fetch('http://127.0.0.1:8000/api/user/account/login/', {
+            method: 'POST',
+            body: formData
+        }).then(res => res.json())
+        .then(data => {
+          console.log(data);
+
+
+
+          tBody.innerHTML+= `
+                            <p>${data.message}</p>
+                        `
+          if(data.redirect){
+            window.location.href = "http://127.0.0.1:8000/api/khoj-the-search/";
+          }
+        })
+        .then(error => console.log(error));
+    });
+ </script>
+  
+{% endblock %}
