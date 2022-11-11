@@ -1,13 +1,4 @@
 
-# An ERP project powered by Django
-
-<h3>run this programe by "python manage.py runserver"</h3>
-<br><br>
-
-
-<h1 align="center">Hi 👋, I'm Fazlul Ayan Koushik</h1>
-<h3 align="center">Software Engineer from Bangladesh</h3>
-=======
 # Ami-Coding-Pari-Na
 
 <h3>How to Run this Project</h3>
@@ -24,7 +15,6 @@
 <p>I have provided swagger documentation of API. But not fully completed. API Link: <a href="http://127.0.0.1:8000/api/documentations/">Here</a> </p>
 
 <h1 align="center">Hi 👋, I'm Fazlul Ayan Koushik</h1>
->>>>>>> 264d6ceb53cf10eeca41c075f5b10dd304920e65
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fazlulayankoushik&label=Profile%20views&color=0e75b6&style=flat" alt="fazlulayankoushik" /> </p>
 
