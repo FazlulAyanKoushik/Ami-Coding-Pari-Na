@@ -22,11 +22,7 @@
 
 <p align="left"> <a href="https://twitter.com/koushik__ayan" target="blank"><img src="https://img.shields.io/twitter/follow/koushik__ayan?logo=twitter&style=for-the-badge" alt="koushik__ayan" /></a> </p>
 
-<<<<<<< HEAD
-- 🌱 I’m currently learning **machine learning**
 
-=======
->>>>>>> 264d6ceb53cf10eeca41c075f5b10dd304920e65
 - 👨‍💻 All of my projects are available at [https://github.com/FazlulAyanKoushik?tab=repositories](https://github.com/FazlulAyanKoushik?tab=repositories)
 
 - 💬 Ask me about **Python, Django, Angular, Node**
