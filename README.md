@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # An ERP project powered by Django
 
 <h3>run this programe by "python manage.py runserver"</h3>
@@ -6,6 +7,23 @@
 
 <h1 align="center">Hi 👋, I'm Fazlul Ayan Koushik</h1>
 <h3 align="center">Software Engineer from Bangladesh</h3>
+=======
+# Ami-Coding-Pari-Na
+
+<h3>How to Run this Project</h3>
+<br>
+<p>Step 1: Create a virtual environment- command: pip install pipenv</P>
+<p>Step 2: I also provide an .env file to access the file- command: la -la</P>
+<p>Step 3: Then install all dependency- command: pipenv sync</P>
+<p>Step 4: After installation to run this project- command:
+  .source .env  
+  pipenv run python manage.py runserver
+</P>
+
+<p>I have provided swagger documentation of API. But not fully completed. API Link: <a href="http://127.0.0.1:8000/api/documentations/">Here</a> </p>
+
+<h1 align="center">Hi 👋, I'm Fazlul Ayan Koushik</h1>
+>>>>>>> 264d6ceb53cf10eeca41c075f5b10dd304920e65
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fazlulayankoushik&label=Profile%20views&color=0e75b6&style=flat" alt="fazlulayankoushik" /> </p>
 
@@ -13,8 +31,11 @@
 
 <p align="left"> <a href="https://twitter.com/koushik__ayan" target="blank"><img src="https://img.shields.io/twitter/follow/koushik__ayan?logo=twitter&style=for-the-badge" alt="koushik__ayan" /></a> </p>
 
+<<<<<<< HEAD
 - 🌱 I’m currently learning **machine learning**
 
+=======
+>>>>>>> 264d6ceb53cf10eeca41c075f5b10dd304920e65
 - 👨‍💻 All of my projects are available at [https://github.com/FazlulAyanKoushik?tab=repositories](https://github.com/FazlulAyanKoushik?tab=repositories)
 
 - 💬 Ask me about **Python, Django, Angular, Node**
@@ -37,5 +58,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=fazlulayankoushik&show_icons=true&locale=en&layout=compact" alt="fazlulayankoushik" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=fazlulayankoushik&show_icons=true&locale=en" alt="fazlulayankoushik" /></p>
-
-# django-erp-website
