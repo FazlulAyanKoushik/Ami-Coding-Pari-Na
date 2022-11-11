@@ -1,21 +1,24 @@
 # Ami-Coding-Pari-Na
 
-# An ERP project powered by Django
+<h3>How to Run this Project</h3>
+<br>
+<p>Step 1: Create a virtual environment- command: pip install pipenv</P>
+<p>Step 2: I also provide an .env file to access the file- command: la -la</P>
+<p>Step 3: Then install all dependency- command: pipenv sync</P>
+<p>Step 4: After installation to run this project- command:
+  .source .env  
+  pipenv run python manage.py runserver
+</P>
 
-<h3>run this programe by "python manage.py runserver"</h3>
-<br><br>
-
+<p>I have provided swagger documentation of API. But not fully completed. API Link: <a href="http://127.0.0.1:8000/api/documentations/">Here</a> </p>
 
 <h1 align="center">Hi 👋, I'm Fazlul Ayan Koushik</h1>
-<h3 align="center">Software Engineer from Bangladesh</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fazlulayankoushik&label=Profile%20views&color=0e75b6&style=flat" alt="fazlulayankoushik" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fazlulayankoushik" alt="fazlulayankoushik" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/koushik__ayan" target="blank"><img src="https://img.shields.io/twitter/follow/koushik__ayan?logo=twitter&style=for-the-badge" alt="koushik__ayan" /></a> </p>
-
-- 🌱 I’m currently learning **machine learning**
 
 - 👨‍💻 All of my projects are available at [https://github.com/FazlulAyanKoushik?tab=repositories](https://github.com/FazlulAyanKoushik?tab=repositories)
 
