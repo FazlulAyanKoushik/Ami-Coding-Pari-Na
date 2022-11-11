@@ -14,6 +14,7 @@
 <br>
 <p>Step 1: Create a virtual environment- command: pip install pipenv</P>
 <p>Step 2: I also provide an .env file to access the file- command: la -la</P>
+<p>        Provide your host email and password in .env file for send mail and authinticate a user</p>
 <p>Step 3: Then install all dependency- command: pipenv sync</P>
 <p>Step 4: After installation to run this project- command:
   .source .env  
